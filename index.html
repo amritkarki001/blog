@@ -97,6 +97,37 @@
             color: #555;
         }
 
+        .sidebar {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .sidebar h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+        .sidebar ul li a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+
         footer {
             text-align: center;
             background-color: #007bff;
@@ -107,6 +138,39 @@
 
         footer p {
             margin: 0;
+        }
+
+        .newsletter {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .newsletter h3 {
+            margin-bottom: 10px;
+        }
+
+        .newsletter input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .newsletter button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .newsletter button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -149,34 +213,31 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
                 </div>
             </div>
-            <div class="post">
-                <img src="https://via.placeholder.com/300x200" alt="Post Image">
-                <div class="post-content">
-                    <h3>Post Title 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
-                </div>
-            </div>
-            <div class="post">
-                <img src="https://via.placeholder.com/300x200" alt="Post Image">
-                <div class="post-content">
-                    <h3>Post Title 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
-                </div>
-            </div>
-            <div class="post">
-                <img src="https://via.placeholder.com/300x200" alt="Post Image">
-                <div class="post-content">
-                    <h3>Post Title 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
-                </div>
-            </div>
-            <div class="post">
-                <img src="https://via.placeholder.com/300x200" alt="Post Image">
-                <div class="post-content">
-                    <h3>Post Title 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
-                </div>
-            </div>
+        </div>
+
+        <div class="sidebar">
+            <h3>Popular Posts</h3>
+            <ul>
+                <li><a href="#">How to Start a Blog</a></li>
+                <li><a href="#">10 Tips for Writing Engaging Content</a></li>
+                <li><a href="#">SEO Basics for Bloggers</a></li>
+                <li><a href="#">Monetizing Your Blog</a></li>
+            </ul>
+
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Food</a></li>
+            </ul>
+        </div>
+
+        <div class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <p>Stay updated with the latest blog posts and news.</p>
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
         </div>
     </div>
 
